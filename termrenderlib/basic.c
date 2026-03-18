@@ -11,6 +11,15 @@ double mymultiply(double a, double b){
     return a*b;
 }
 
+void enableAlternateBuffer(){
+    printf("\033[?1049h");
+    fflush(stdout);
+}
+void disableAlternateBuffer(){
+    printf("\033[?1049l");
+    fflush(stdout);
+}
+
 
 
 #endif
