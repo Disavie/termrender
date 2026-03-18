@@ -1,11 +1,15 @@
 #ifndef TERMRENDERLIB_BASICC
 #define TERMRENDERLIB_BASICC
 
-#include "basic.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <termios.h>
 #include <stdlib.h>
+
+
+
+#include "basic.h"
+#include "utils.h"
 
 void termrender_init(){
     enableRawMode();

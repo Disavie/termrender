@@ -12,9 +12,14 @@ int main(){
     sleep(1);
     cursorSetPos(0,height);
     sleep(1);
+    cursorSetPos(width,height);
+    sleep(1);
     cursorSetPos(width,0);
     sleep(1);
-    cursorSetPos(width,height);
+
+    cursorReset();
+    printf("Testing setting cursor position too far outside terminal");
+    cursorSetPos(width+50,height+50);
     sleep(1);
 
     return 0;
