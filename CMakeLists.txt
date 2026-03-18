@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.28)
 project(Test)
 set(APP_LIBRARY termrenderlib)
 add_subdirectory(${APP_LIBRARY})
+add_subdirectory(Tests)
 
 include_directories(${APP_LIBRARY})
 
