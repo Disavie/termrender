@@ -8,10 +8,8 @@
 #include <unistd.h>
 // For sleep
  
-int add(int a, int b);
-
-double mymultiply(double a, double b);
 
 void enableAlternateBuffer();
 void disableAlternateBuffer();
+void carriageReturn();
 #endif
