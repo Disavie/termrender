@@ -6,3 +6,6 @@ target_link_libraries(test_main PRIVATE termrenderlib)
 
 add_executable(test_basic test_basic.c)
 target_link_libraries(test_basic PRIVATE termrenderlib)
+
+add_executable(test_utils test_utils.c)
+target_link_libraries(test_utils PRIVATE termrenderlib)

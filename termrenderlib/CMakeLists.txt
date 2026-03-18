@@ -6,6 +6,8 @@ add_library(termrenderlib
     basic.c
     basic.h
     window.h
+    utils.c
+    utils.h
 )
 
 target_include_directories(termrenderlib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
